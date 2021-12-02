@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="https://i.icomoon.io/public/temp/455a948b33/UntitledProject/style.css">
+	<!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/d7ff21a7de/UntitledProject/style.css"> -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1KTVLD1137"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1KTVLD1137');
+</script>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="fonts/style.css">
+	<!-- <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/demo-files/demo.css"> -->
+	<title>Portafolio :: Martin Martinez</title>
+</head>
+<body>
+	
+	<div class="contenedor">
+		<header>
+		  <nav >
+            
+            <ul>
+              <li><a href="index.html">Inicio </a></li>
+              <li><a href="#tecnologias2">Tecnologias </a></li>
+              <li><a href="#contactenos"> Contactenos</a></li>
+            </ul>
+            <div class="flags">
+               
+            <a href="indexeng.html"><img src="./img/englandflag3.png" alt="Español" class="lang"></a>
+        </div>
+            <div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <a href="indexeng.html"><img src="./img/englandflag3.png" alt=""  class="flaghide"> </a>
+              </div>
+          </nav>
+          
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+              $(".hide").on('click', function() {
+                $("nav ul").toggle('slow');
+              })
+            </script>
+			<div class="logo">
+
+				<h1>Martin Martinez</h1>
+				<p>Desarrollador Web</p>
+			</div>
+			<div class="infopres">
+				<img src="./img/J1IABX4D_400x400.jpg" alt="">
+				
+
+			</div>
+			<div class="infopres infopres4" >
+
+			
+					<h5 class="infpers">Soy: Un desarrollador en proceso de aprendizaje, he realizado varios cursos de programacio</h5><br>
+			
+					<h5 class="infpers">	De: Uruguay</h5>
+					<br>
+					<div class="aboutme">
+						<h5 class="infpers infopersonal">Mis conocimientos: </h5> 
+						
+							<P>HTML</P>
+							<P>CSS</P>
+							<P>JAVASCRIPT</P>
+						
+					</div>
+					<div class="aboutme">
+						<h5 class="infpers infopersonal">Hobies: </h5> 
+					
+							<p>Naturaleza</p>
+							<p>Viajes</p>
+							<li></li>
+						
+
+					</div>
+				
+			</div>
+
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Comida</a>
+				<a href="#">Estudio</a>
+				<a href="#">Empresas</a>
+				<a href="#">Varios</a>
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			
+			
+			
+			<!-- prueba card con mouse hover-->
+			<div class="item" 
+			data-categoria="estudio"
+			data-etiquetas="estudio pregunta respuesta web preguntas "
+			data-descripcion= 'Web para ayudar a estudiar, el usuario puede colocar cualquier pregunta 
+			Las respuestas deben de ser falso o verdadero.
+			 El usuario elige la pregunta y coloca si es verdadero o Falso
+			.'
+	   >
+	   <div class="content">
+	  
+		<div class="content-overlay"></div>
+		<img class="content-image" src="./img/estudio.jpg">
+		<div class="content-details fadeIn-bottom">
+		  <h3 class="content-title">Web de estudio </h3>
+		  <a href="https://github.com/devicepc/webEstudio" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/webEstudio/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+		</div>
+	</div>
+	   </div>
+
+
+
+	   <div class="item" 
+	   data-categoria="varios"
+	   data-etiquetas="varios clima weather api web"
+	   data-descripcion= ' Web ver el clima en las ciudades 
+	   Usa la Api de OpenWeatherMap para obtener los datos.
+		'
+  >
+  <div class="content">
+ 
+   <div class="content-overlay"></div>
+   <img class="content-image" src="./img/clima.jpg">
+   <div class="content-details fadeIn-bottom">
+	 <h3 class="content-title">Web de clima </h3>
+	 <a href="https://github.com/devicepc/webclima" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/webclima/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+   </div>
+</div>
+  </div>
+  <div class="item" 
+  data-categoria="comida"
+  data-etiquetas="comida empresas menu web restaurant restaurante"
+  data-descripcion= ' Web de restaurant de comida tipica uruguaya.
+  Con menu y precios
+		'
+>
+<div class="content">
+
+<div class="content-overlay"></div>
+<img class="content-image" src="./img/comida uruguaya2.jpg">
+<div class="content-details fadeIn-bottom">
+<h3 class="content-title" id="letrademeirda">Comida uruguaya</h3>
+<a href="https://github.com/devicepc/comidauruguaya" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/comidauruguaya/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+</div>
+</div>
+</div>
+
+
+
+<div class="item" 
+data-categoria="varios"
+data-etiquetas="buscador motor google navegador  web"
+data-descripcion= 'Web para realizar busquedas en internet 
+Las busquedas las hace a travez de un motor de Google.
+.'
+>
+<div class="content">
+
+<div class="content-overlay"></div>
+<img class="content-image" src="./img/buscador.jpg">
+<div class="content-details fadeIn-bottom">
+<h3 class="content-title">Web buscador </h3>
+<a href="https://github.com/devicepc/pomodoro" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/pomodoro/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+</div>
+</div>
+</div>
+<div class="item" 
+			data-categoria="estudio"
+			data-etiquetas="estudio concentracion descanso trabajos examenes web"
+			data-descripcion= 'Web para ayudar a estudiar agregamos la tarea, tenemos un temporizador
+			 para dividir el trabajo en bloques de tiempo enfocados (25 min, 30 min o 35 min)
+			  separados por un breve descanso, que siempre es  de cinco minutos.
+			Mientras que hacemos nuestra tarea, Pomodoro no acomapña con musica, que se puede deshabilitar.
+
+
+			.'
+	   >
+	   <div class="content">
+	  
+		<div class="content-overlay"></div>
+		<img class="content-image" src="./img/pomodoro.jpg">
+		<div class="content-details fadeIn-bottom">
+		  <h3 class="content-title">Pomodoro</h3>
+		  <a href="https://github.com/devicepc/PomodoroResponsibe" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/PomodoroResponsibe/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+		</div>
+	</div>
+	   </div>
+
+
+
+	   <div class="item" 
+	   data-categoria="empresas"
+	   data-etiquetas="empresas moda modista ropa vestimenta"
+	   data-descripcion= 'Web de una modista que confeciona ropa 
+	   la misma tiene contactos y video
+	   .'
+  >
+  <div class="content">
+ 
+   <div class="content-overlay"></div>
+   <img class="content-image" src="./img/moda.jpg">
+   <div class="content-details fadeIn-bottom">
+	 <h3 class="content-title" >Web modista</h3>
+	 <a href="https://github.com/devicepc/Moda" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/Moda/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+   </div>
+</div>
+  </div>
+  <div class="item" 
+  data-categoria="empresas"
+  data-etiquetas="web cine empresa entradas divercion"
+  data-descripcion= 'Web simula un cine que tiene varias peliculas en cartel
+  en la misma puedes sacer entradas ( antes debes logearte ) y descargarlas como pdf
+  tiene tope minimo y maximo para sacar entradas y se pueden elegir asentos
+  Si nececitara mas de 20 entradas tiene que ser a traves de canal empresarial ya que tiene 20 como tope.
+  .'
+>
+<div class="content">
+
+<div class="content-overlay"></div>
+<img class="content-image" src="./img/cine.jpg">
+<div class="content-details fadeIn-bottom">
+<h3 class="content-title" id="letrademeirda">Cine c/ entradas</h3>
+<a href="https://github.com/devicepc/Webcine5" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/Webcine5/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+</div>
+</div>
+</div>
+
+
+
+<div class="item" 
+data-categoria="estudies"
+data-etiquetas="estudio pregunta respuesta web"
+data-descripcion= ' Web para ayudar a estudiar, es un quizz 
+en el cual hay preguntas de un tema y este tiene un puntaje 
+Preuntas de multilpe opcion
+.'
+>
+<div class="content">
+
+<div class="content-overlay"></div>
+<img class="content-image" src="./img/puntaje.jpg">
+<div class="content-details fadeIn-bottom">
+<h3 class="content-title">Quiz</h3>
+<a href="https://github.com/devicepc/mejorpuntaje" target="_blank"><i class="fab fa-github-square"></i></a>
+	 <a href="https://devicepc.github.io/mejorpuntaje/" target="_blank"><i class="fas fa-globe-americas"></i></a>
+</div>
+</div>
+</div>
+
+
+
+
+			<!-- finde pruyeba c mousehover-->
+
+			
+			
+			
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+			<p class="descripcion2"></p>
+		</section>
+	
+	
+<div class="tecnologias2" id="tecnologias2">
+		<div class="tecnTXT">
+			<h3>
+				Los lenguajes en los projectos son:
+			</h3>
+
+		</div>
+		<div class="tecnicons">
+			
+			<img src="./img/css323.png" alt="" class="icontec">
+			<img src="./img/javascript323.png" alt=""class="icontec">
+			<img src="./img/html3323.png" alt=""class="icontec">
+			
+		</div>
+
+	</div>
+
+
+
+		    <div id="contactenos">
+        <h1 class="TituloFaQ" id="TituloFaQ">Contactenos</h1>
+
+        <form method="POST" action="https://formsubmit.co/devicepc01@gmail.com" >
+
+<input type="text" id="nombre" name="nombre" required placeholder="Nombre"><br><br>
+
+<input type="text" id="correo" name="correo" required placeholder="Correo"><br><br>
+
+<input type="text" id="asunto" name="asunto" required placeholder="Asunto"><br><br>
+
+<textarea name="mensaje" id="mensaje" cols="30" rows="10" required placeholder="Mensaje"></textarea><br><br>
+
+            <input type="Submit" class="btnpomodoro2"> <input type="reset" class="btnpomodoro2" value="Reset">
+        </form>
+
+		<footer class="contenedor">
+			<h3 class="TituloFaQ">Sigueme para ver mas contenido</h3>
+			<div class="redes-sociales">
+				
+				<div class="contenedor-icono">
+					<a href="https://twitter.com/devicepc_costa" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.instagram.com/devicereparacion/" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			
+			<div class="creado-por">
+				<p><a href="https://www.falconmasters.com">Sitio diseñado por Martin Martinez - Device Pc</a></p>
+			</div>
+			
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
